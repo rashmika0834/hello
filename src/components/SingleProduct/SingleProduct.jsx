@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { Context } from "../../utils/context";
 import { useParams } from "react-router-dom";
 import useFetch from "../../hooks/useFetch";
+import { useNavigate } from "react-router-dom";
 import RelatedProducts from "./RelatedProducts/RelatedProducts";
 import {
     FaFacebookF,
@@ -81,7 +82,7 @@ const SingleProduct = () => {
                             <span className="text-bold">
                                 Share:
                                 <span className="social-icons">
-                                    <FaFacebookF size={16} />
+                                    <FaFacebookF size={16} />    
                                     <FaTwitter size={16} />
                                     <FaInstagram size={16} />
                                     <FaLinkedinIn size={16} />
