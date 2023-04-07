@@ -19,7 +19,7 @@ const Banner = () => {
 
                     <div className="ctas">
                     <button className="banner-cta" onClick={() => navigate(`/category/${"3"}`)}>
-                            Shop now
+                            Shop today
                         </button>
 
                         <button className="banner-cta" onClick={() => navigate(`/category/${"3"}`)}>
